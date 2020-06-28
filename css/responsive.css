@@ -1,0 +1,133 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 320px) and (max-width: 575px) 
+{
+	.header-top p{
+		font-size: 11px;
+	}
+	.banner .banner-text h1 {
+		font-size: 22px;
+	}
+	.banner, .your-project, .admin-panel {
+		padding: 60px 0;
+		text-align: center;
+	}
+	.banner .banner-text .btn-custom {
+		padding: 6px 10px;
+		font-size: 12px;
+		margin: 10px 10px 0;
+	}
+	.mw-md-120 {
+		width: 100% !important;
+	}
+	.hadding h2 {
+		font-size: 18px;
+	}
+	.single-project{
+		margin-bottom: 30px;
+	}
+	.admin-panel .admin-panel-text {
+		padding: 30px 0;
+	}
+	.are-you-ready .shap{
+		display: none;
+	}
+	.box .single-box .single-box-text h4 {
+		font-size: 18px;
+	}
+	.slice {
+		padding: 0px;
+	}
+	footer .footer-shap {
+		display: none;
+	}
+	footer{
+		text-align: center;
+	}
+	.footer-page {
+		margin: 70px 0;
+	}
+	.copy-secton p{
+		font-size: 14px;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 576px) and (max-width: 767px) 
+{
+	.banner .banner-text h1 {
+		font-size: 44px;
+	}
+	.single-project{
+		text-align: center;
+		margin-bottom: 40px;
+	}
+	.are-you-ready .shap,
+	footer .footer-shap {
+		display: none;
+	}
+	.slice {
+		padding: 0px;
+	}
+	footer .footer-shap {
+		display: none;
+	}
+	footer{
+		text-align: center;
+	}
+	.footer-page {
+		margin: 70px 0;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) 
+{
+	.banner .banner-text h1{
+		font-size: 46px;
+	}
+	.single-project{
+		margin-bottom: 40px;
+		text-align: center;
+	}
+	.slice,
+	.admin-panel .admin-panel-text {
+		padding: 0px;
+	}
+	.slice{
+		margin-bottom: 50px;
+	}
+	footer .footer-shap,
+	.are-you-ready .shap{
+		top: -170px;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) 
+{
+	.banner .banner-text h1 {
+		font-size: 46px;
+	}
+	.single-project .project-text h6 {
+		font-size: 22px;
+	}
+	footer .footer-shap,
+	.are-you-ready .shap{
+		top: -220px;
+	}
+	.box .single-box .single-box-text h4{
+		font-size: 18px;
+	}
+	.box .single-box .single-box-text p{
+		font-size: 16px;
+	}
+
+}
+@media only screen and (min-width: 1400px) and (max-width: 1800px) 
+{
+	footer .footer-shap,
+	.are-you-ready .shap{
+		top: -343px;
+	}
+
+}
